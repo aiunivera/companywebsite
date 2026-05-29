@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\\(Get-ChildItem -Path \"C:\\\\compnywebsite\" -Recurse\\).Count)",
+      "PowerShell(@\\(Get-ChildItem -Path \"C:\\\\compnywebsite\" -Recurse -Force\\))",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\compnywebsite\" -Recurse | Where-Object { !$_.PSIsContainer } | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\compnywebsite\\\\\", \"\"\\) })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\compnywebsite\" -Recurse -File | Where-Object { $_.Extension -eq \".html\" -or $_.Extension -eq \".css\" -or $_.Extension -eq \".js\" } | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\compnywebsite\\\\\", \"\"\\) } | Sort-Object)",
+      "PowerShell(\\(Get-Content \"C:\\\\compnywebsite\\\\assets\\\\css\\\\style.css\" | Measure-Object -Line\\).Lines)",
+      "WebFetch(domain:search.naver.com)",
+      "WebSearch",
+      "WebFetch(domain:kr.univera.com)",
+      "WebFetch(domain:www.mt.co.kr)",
+      "WebFetch(domain:www.goodkyung.com)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\compnywebsite\\\\assets\\\\i18n\")"
+    ]
+  }
+}
