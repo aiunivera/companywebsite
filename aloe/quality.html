@@ -13,7 +13,7 @@
 
   <header class="gnb" id="gnb" role="banner">
     <div class="gnb__inner">
-      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><span class="gnb__logo-text">UNIVERA</span></a>
+      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="gnb__logo-img" width="120" height="36"></a>
       <nav class="gnb__nav" id="gnbNav" role="navigation" aria-label="주 메뉴">
         <ul class="gnb__menu">
           <li class="gnb__item" data-menu="about"><a href="../about/index.html" class="gnb__link"><span data-i18n="gnb.about">유니베라 소개</span><span class="gnb__link-arrow" aria-hidden="true">▾</span></a>
@@ -51,7 +51,7 @@
           </li>
         </ul>
       </nav>
-      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div><a href="#" class="btn btn--orange btn--sm" target="_blank" rel="noopener"><span data-i18n="gnb.buy_btn">멤버스몰 구매</span></a></div>
+      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div></div>
       <button class="gnb__hamburger" id="gnbHamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnbNav">
         <span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span>
       </button>
@@ -64,13 +64,13 @@
       <div class="page-hero__inner">
         <nav aria-label="브레드크럼" class="breadcrumb">
           <a href="../index.html" data-i18n="common.home">홈</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <a href="../aloe/index.html">알로에 전문성</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <span class="breadcrumb__current" aria-current="page">품질 &amp; 인증</span>
+          <a href="../aloe/index.html" data-i18n="gnb.aloe">알로에 전문성</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span class="breadcrumb__current" aria-current="page" data-i18n="gnb.aloe_quality">품질 &amp; 인증</span>
         </nav>
-        <p class="page-hero__label">알로에 전문성</p>
-        <h1 class="page-hero__title">품질 &amp; 인증</h1>
+        <p class="page-hero__label" data-i18n="gnb.aloe">알로에 전문성</p>
+        <h1 class="page-hero__title" data-i18n="p.quality.title">품질 &amp; 인증</h1>
         <!-- ⚠️ 주의: 2026년 9월부터 "CCM 인증" → "사업자 지정"으로 명칭 변경 예정 -->
-        <p class="page-hero__desc">국내외 공인 기관이 검증한 유니베라의 품질 기준 — GMP · FDA GRAS · Global GAP · CCM 9차 인증</p>
+        <p class="page-hero__desc" data-i18n="p.quality.desc">국내외 공인 기관이 검증한 유니베라의 품질 기준</p>
       </div>
     </section>
     <section class="section section--alt">
@@ -81,28 +81,28 @@
 
           <div class="cert-card cert-card--highlight">
             <div class="cert-card__badge">제조 품질</div>
-            <h3 class="cert-card__title">GMP — 우수건강기능식품제조기준</h3>
+            <h3 class="cert-card__title" data-i18n="body.quality.gmp_t">GMP — 우수건강기능식품제조기준</h3>
             <p class="cert-card__body">식품의약품안전처가 인정하는 건강기능식품 GMP(Good Manufacturing Practice) 인증입니다. 원료 입고, 제조, 검사, 포장, 출하까지 전 공정의 표준화된 관리를 의미합니다. 모든 배치(batch) 기록이 문서화되어 추적 가능합니다.</p>
             <p class="cert-card__meta">식품의약품안전처</p>
           </div>
 
           <div class="cert-card cert-card--highlight">
             <div class="cert-card__badge">국제 안전성</div>
-            <h3 class="cert-card__title">FDA GRAS — 미국 FDA 안전성 인정</h3>
+            <h3 class="cert-card__title" data-i18n="body.quality.fda_t">FDA GRAS — 미국 FDA 안전성 인정</h3>
             <p class="cert-card__body">미국 FDA의 GRAS(Generally Recognized As Safe) 판정은 해당 원료가 미국 식품·건강기능식품 시장에서 안전하게 사용 가능함을 의미합니다. 국제 시장에서 유니베라 알로에 원료가 통용되는 핵심 근거입니다.</p>
             <p class="cert-card__meta">미국 FDA</p>
           </div>
 
           <div class="cert-card">
             <div class="cert-card__badge">원료 인증</div>
-            <h3 class="cert-card__title">IASC — 국제알로에기준심의협회</h3>
+            <h3 class="cert-card__title" data-i18n="body.quality.iasc_t">IASC — 국제알로에기준심의협회</h3>
             <p class="cert-card__body">IASC(International Aloe Science Council)는 알로에 원료의 순도, 함량, 품질 기준을 국제적으로 심의하는 기관입니다. 유니베라는 1988년 가입 이래 IASC 기준을 충족하는 원료를 지속적으로 공급하고 있습니다.</p>
             <p class="cert-card__meta">IASC · 1988년 가입</p>
           </div>
 
           <div class="cert-card">
             <div class="cert-card__badge">농장 인증</div>
-            <h3 class="cert-card__title">Global GAP — 국제 농업생산 기준</h3>
+            <h3 class="cert-card__title" data-i18n="body.quality.ggap_t">Global GAP — 국제 농업생산 기준</h3>
             <p class="cert-card__body">GlobalG.A.P.는 농약 사용, 토양 관리, 작업자 안전, 환경 보호 기준을 포함하는 국제 농업 인증입니다. 유니베라 직영 농장의 재배 환경이 이 기준을 충족하며, 무농약·유기농 재배 원칙의 국제적 검증이 됩니다.</p>
             <p class="cert-card__meta">GlobalG.A.P.</p>
           </div>
@@ -110,14 +110,14 @@
           <div class="cert-card">
             <!-- ⚠️ 주의: 2026년 9월부터 "CCM 인증" → "사업자 지정"으로 명칭 변경 예정 -->
             <div class="cert-card__badge">소비자 보호</div>
-            <h3 class="cert-card__title">CCM 9차 인증 — 소비자중심경영</h3>
+            <h3 class="cert-card__title" data-i18n="body.quality.ccm_t">CCM 9차 인증 — 소비자중심경영</h3>
             <p class="cert-card__body">공정거래위원회 주관의 소비자중심경영(CCM) 인증 9차 취득. 고객 불만 처리, 개인정보 보호, 소비자 정보 제공 등 전 경영 과정이 소비자 관점으로 운영됨을 의미합니다. 2026년 9월부터 명칭이 '사업자 지정'으로 변경될 예정입니다.</p>
             <p class="cert-card__meta">공정거래위원회 · 9차</p>
           </div>
 
           <div class="cert-card">
             <div class="cert-card__badge">수상</div>
-            <h3 class="cert-card__title">세계일류상품 23년 연속</h3>
+            <h3 class="cert-card__title" data-i18n="body.quality.wcp_t">세계일류상품 23년 연속</h3>
             <p class="cert-card__body">산업통상자원부 세계일류상품으로 2003년 첫 선정 이후 2025년까지 23년 연속 선정. 단순 품질 인증을 넘어 국제 시장 경쟁력과 기술력을 인정받은 결과입니다.</p>
             <p class="cert-card__meta">산업통상자원부 · 2003~2025</p>
           </div>
@@ -139,7 +139,7 @@
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__top">
-        <div class="footer__brand"><span class="footer__logo">UNIVERA</span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
+        <div class="footer__brand"><span class="footer__logo"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="footer__logo-img" width="100" height="28"></span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
         <nav class="footer__family" aria-label="패밀리 사이트"><span class="footer__family-label" data-i18n="footer.family_label">패밀리 사이트</span><a href="#" target="_blank" rel="noopener">멤버스몰</a></nav>
       </div>
       <nav class="footer__sitemap" aria-label="사이트맵">
@@ -153,11 +153,9 @@
           <li><a href="../aloe/ingredients.html"><span data-i18n="gnb.aloe_ingredients">원료 &amp; 재배</span></a></li><li><a href="../aloe/rnd.html"><span data-i18n="gnb.aloe_rnd">연구개발 &amp; 특허</span></a></li><li><a href="../aloe/quality.html"><span data-i18n="gnb.aloe_quality">품질 &amp; 인증</span></a></li>
         </ul></div>
         <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_products">제품 &amp; 브랜드</span></strong><ul>
-          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li>
-        </ul></div>
-        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_support">고객지원</span></strong><ul>
-          <li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li>
-        </ul></div>
+          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li></ul><strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_sustainability">지속가능경영</span></strong><ul><li><a href="../sustainability/social.html"><span data-i18n="gnb.sustainability_social">사회성과</span></a></li><li><a href="../sustainability/environment.html"><span data-i18n="gnb.sustainability_environment">환경성과</span></a></li><li><a href="../sustainability/csv.html"><span data-i18n="gnb.sustainability_csv">공유가치창출(CSV)</span></a></li></ul></div>
+        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_newsroom">뉴스룸</span></strong><ul><li><a href="../newsroom/index.html"><span data-i18n="gnb.newsroom_press">보도자료</span></a></li><li><a href="../newsroom/news.html"><span data-i18n="gnb.newsroom_news">기업 소식</span></a></li><li><a href="../newsroom/videos.html"><span data-i18n="gnb.newsroom_videos">영상 자료실</span></a></li></ul>
+        <strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_support">고객지원</span></strong><ul><li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li></ul></div>
       </nav>
       <div class="footer__bottom">
         <address class="footer__address"><strong>(주)유니베라</strong><span>대표이사: 김교만</span><span>사업자등록번호: [미확인]</span><span>주소: 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터</span><span>대표전화: 080-022-7575</span></address>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
@@ -25,7 +25,7 @@
   <header class="gnb" id="gnb" role="banner">
     <div class="gnb__inner">
       <a href="index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동">
-        <span class="gnb__logo-text">UNIVERA</span>
+        <img src="assets/images/logo.png" alt="유니베라 UNIVERA" class="gnb__logo-img" width="120" height="36">
       </a>
 
       <nav class="gnb__nav" id="gnbNav" role="navigation" aria-label="주 메뉴">
@@ -107,7 +107,7 @@
       </nav>
 
       <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div>
-        <a href="#" class="btn btn--orange btn--sm" target="_blank" rel="noopener" aria-label="멤버스몰 구매 페이지 새 탭에서 열기"><span data-i18n="gnb.buy_btn">멤버스몰 구매</span></a>
+        
       </div>
 
       <button class="gnb__hamburger" id="gnbHamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnbNav">
@@ -125,6 +125,10 @@
 
     <!-- ① HERO -->
     <section class="hero" aria-label="메인 히어로">
+      <!-- 배경 알로에 스케치 장식 -->
+      <div class="hero__aloe hero__aloe--left" aria-hidden="true"><img src="assets/images/aloe-sketch.png" alt=""></div>
+      <div class="hero__aloe hero__aloe--right" aria-hidden="true"><img src="assets/images/aloe-sketch.png" alt=""></div>
+
       <div class="hero__inner">
         <div class="hero__content">
           <p class="hero__eyebrow" data-i18n="index.hero_eyebrow">창립 50주년 · 1976–2026</p>
@@ -136,12 +140,14 @@
           </div>
         </div>
         <div class="hero__visual" aria-hidden="true">
-          <div class="hero__visual-placeholder">
-            <img src="assets/images/hero-main.jpg"
-                 alt="유니베라 알로에 농장 전경 — 세계 4개국에 걸친 광활한 재배 환경"
-                 width="600" height="480"
-                 loading="eager"
-                 onerror="this.style.display='none'">
+          <div class="hero__visual-frame">
+            <div class="hero__visual-placeholder">
+              <img src="assets/images/hero-main.jpg"
+                   alt="유니베라 알로에 농장 전경 — 세계 4개국에 걸친 광활한 재배 환경"
+                   width="600" height="480"
+                   loading="eager"
+                   onerror="this.style.display='none'">
+            </div>
           </div>
         </div>
       </div>
@@ -243,7 +249,7 @@
     <!-- /신뢰 지표 -->
 
     <!-- ④ 제품 카테고리 -->
-    <section class="section" id="products-cat">
+    <section class="section section--alt" id="products-cat">
       <div class="section__inner">
         <p class="section__label" data-i18n="index.products_label">제품 &amp; 브랜드</p>
         <h2 class="section__title fade-in" data-i18n-html="index.products_title">당신의 건강 고민,<br>어디에 해당하시나요?</h2>
@@ -323,7 +329,7 @@
     <!-- /제품 카테고리 -->
 
     <!-- ⑤ 내부 탐색 허브 -->
-    <section class="section section--alt" id="nav-hub">
+    <section class="section" id="nav-hub">
       <div class="section__inner">
         <p class="section__label" data-i18n="index.hub_label">더 알아보기</p>
         <h2 class="section__title fade-in" data-i18n="index.hub_title">유니베라를 더 깊이 탐색하세요</h2>
@@ -373,7 +379,7 @@
 
       <div class="footer__top">
         <div class="footer__brand">
-          <span class="footer__logo">UNIVERA</span>
+          <span class="footer__logo"><img src="assets/images/logo.png" alt="유니베라 UNIVERA" class="footer__logo-img" width="100" height="28"></span>
           <p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p>
         </div>
         <nav class="footer__family" aria-label="패밀리 사이트">

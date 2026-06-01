@@ -13,7 +13,7 @@
 
   <header class="gnb" id="gnb" role="banner">
     <div class="gnb__inner">
-      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><span class="gnb__logo-text">UNIVERA</span></a>
+      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="gnb__logo-img" width="120" height="36"></a>
       <nav class="gnb__nav" id="gnbNav" role="navigation" aria-label="주 메뉴">
         <ul class="gnb__menu">
           <li class="gnb__item" data-menu="about"><a href="../about/index.html" class="gnb__link"><span data-i18n="gnb.about">유니베라 소개</span><span class="gnb__link-arrow" aria-hidden="true">▾</span></a>
@@ -51,7 +51,7 @@
           </li>
         </ul>
       </nav>
-      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div><a href="#" class="btn btn--orange btn--sm" target="_blank" rel="noopener"><span data-i18n="gnb.buy_btn">멤버스몰 구매</span></a></div>
+      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div></div>
       <button class="gnb__hamburger" id="gnbHamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnbNav">
         <span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span>
       </button>
@@ -64,24 +64,24 @@
       <div class="page-hero__inner">
         <nav aria-label="브레드크럼" class="breadcrumb">
           <a href="../index.html" data-i18n="common.home">홈</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <a href="../aloe/index.html">알로에 전문성</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <span class="breadcrumb__current" aria-current="page">에코넷 시스템</span>
+          <a href="../aloe/index.html" data-i18n="gnb.aloe">알로에 전문성</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span class="breadcrumb__current" aria-current="page" data-i18n="gnb.aloe_econet">에코넷 시스템</span>
         </nav>
-        <p class="page-hero__label">알로에 전문성</p>
-        <h1 class="page-hero__title">에코넷 시스템</h1>
-        <p class="page-hero__desc">농장에서 제품까지, 유니베라가 직접 관리하는 수직계열화 통합 품질 관리 체계</p>
+        <p class="page-hero__label" data-i18n="gnb.aloe">알로에 전문성</p>
+        <h1 class="page-hero__title" data-i18n="p.econet.title">에코넷 시스템</h1>
+        <p class="page-hero__desc" data-i18n="p.econet.desc">농장에서 제품까지, 유니베라가 직접 관리하는 수직계열화 통합 품질 관리 체계</p>
       </div>
     </section>
     <section class="section section--alt">
       <div class="section__inner">
-        <p class="section__lead">유니베라는 알로에 원료의 재배부터 완제품 출하까지 모든 단계를 직접 관리합니다.<br>이 수직계열화 시스템을 '에코넷(Econet)'이라 부릅니다.</p>
+        <p class="section__lead" data-i18n="body.econet.intro">유니베라는 알로에 원료의 재배부터 완제품 출하까지 모든 단계를 직접 관리합니다.<br>이 수직계열화 시스템을 '에코넷(Econet)'이라 부릅니다.</p>
 
         <div class="econet-flow">
 
           <div class="econet-step">
             <div class="econet-step__num" aria-hidden="true">01</div>
             <div class="econet-step__icon" aria-hidden="true">🌿</div>
-            <h3 class="econet-step__title">재배 — 4개국 직영 농장</h3>
+            <h3 class="econet-step__title" data-i18n="body.econet.s1_h">재배 — 4개국 직영 농장</h3>
             <p class="econet-step__desc">멕시코(탐피코·캄페체), 도미니카공화국, 미국, 한국 4개국 3,733만㎡의 직영 농장에서 알로에베라를 직접 재배합니다. 무농약·제초제 미사용·유기농 천연비료로 재배해 원료의 안전성을 원천부터 확보합니다.</p>
             <ul class="econet-step__list">
               <li>무농약·유기농 천연비료 재배</li>
@@ -95,7 +95,7 @@
           <div class="econet-step">
             <div class="econet-step__num" aria-hidden="true">02</div>
             <div class="econet-step__icon" aria-hidden="true">🌾</div>
-            <h3 class="econet-step__title">수확 — 적기 수확 기준</h3>
+            <h3 class="econet-step__title" data-i18n="body.econet.s2_h">수확 — 적기 수확 기준</h3>
             <p class="econet-step__desc">알로에베라는 수확 시기에 따라 유효 성분의 함량이 크게 달라집니다. 유니베라는 알로에 성숙도를 자체 기준으로 측정하고 최적의 시기에 수확합니다. 수확 직후 신선도가 유지되는 상태로 가공 라인으로 이동합니다.</p>
             <ul class="econet-step__list">
               <li>성숙도 자체 기준 수확</li>
@@ -108,7 +108,7 @@
           <div class="econet-step">
             <div class="econet-step__num" aria-hidden="true">03</div>
             <div class="econet-step__icon" aria-hidden="true">⚗️</div>
-            <h3 class="econet-step__title">가공·추출 — 유효 성분 표준화</h3>
+            <h3 class="econet-step__title" data-i18n="body.econet.s3_h">가공·추출 — 유효 성분 표준화</h3>
             <p class="econet-step__desc">수확한 알로에를 직접 운영하는 가공 시설에서 처리합니다. 다당류(Acemannan), 알로에신, 알로인 등 200여 종의 생리활성 물질의 함량을 분석·표준화합니다. 그룹사 유니젠(Unigen)이 개발한 파이토로직스(Phytologics) 기술이 이 단계에 적용됩니다.</p>
             <ul class="econet-step__list">
               <li>200여 종 생리활성 물질 분석</li>
@@ -122,7 +122,7 @@
           <div class="econet-step">
             <div class="econet-step__num" aria-hidden="true">04</div>
             <div class="econet-step__icon" aria-hidden="true">🔬</div>
-            <h3 class="econet-step__title">연구·검증 — 50년 축적된 데이터</h3>
+            <h3 class="econet-step__title" data-i18n="body.econet.s4_h">연구·검증 — 50년 축적된 데이터</h3>
             <p class="econet-step__desc">1992년 CAP(알로에 신약개발) 프로젝트를 시작으로 50년간 알로에 연구를 축적했습니다. 원료·공정·제품의 효능과 안전성을 자체 연구소와 그룹사 유니젠을 통해 과학적으로 검증합니다. 30개국 104개 특허가 이 연구의 결과물입니다.</p>
             <ul class="econet-step__list">
               <li>자체 연구소 운영</li>
@@ -136,7 +136,7 @@
           <div class="econet-step">
             <div class="econet-step__num" aria-hidden="true">05</div>
             <div class="econet-step__icon" aria-hidden="true">📦</div>
-            <h3 class="econet-step__title">생산·출하 — GMP 인증 공장</h3>
+            <h3 class="econet-step__title" data-i18n="body.econet.s5_h">생산·출하 — GMP 인증 공장</h3>
             <p class="econet-step__desc">식품의약품안전처 GMP 인증 공장에서 최종 제품을 생산합니다. 생산 전 과정은 문서화된 품질 관리 기준에 따라 운영되며, 모든 배치(batch)의 품질 기록이 추적 가능합니다. 완제품은 GMP 기준 품질 검사를 통과한 후 출하됩니다.</p>
             <ul class="econet-step__list">
               <li>식약처 GMP 인증 공장</li>
@@ -152,8 +152,8 @@
         </div>
 
         <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; margin-top:var(--space-8);">
-          <a href="../aloe/ingredients.html" class="btn btn--primary btn--sm">원료 &amp; 재배 자세히 보기</a>
-          <a href="../aloe/quality.html" class="btn btn--outline btn--sm">품질 &amp; 인증 확인하기</a>
+          <a href="../aloe/ingredients.html" class="btn btn--primary btn--sm" data-i18n="body.econet.btn_ingredients">원료 &amp; 재배 자세히 보기</a>
+          <a href="../aloe/quality.html" class="btn btn--outline btn--sm" data-i18n="body.econet.btn_quality">품질 &amp; 인증 확인하기</a>
         </div>
       </div>
     </section>
@@ -162,7 +162,7 @@
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__top">
-        <div class="footer__brand"><span class="footer__logo">UNIVERA</span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
+        <div class="footer__brand"><span class="footer__logo"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="footer__logo-img" width="100" height="28"></span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
         <nav class="footer__family" aria-label="패밀리 사이트"><span class="footer__family-label" data-i18n="footer.family_label">패밀리 사이트</span><a href="#" target="_blank" rel="noopener">멤버스몰</a></nav>
       </div>
       <nav class="footer__sitemap" aria-label="사이트맵">
@@ -176,11 +176,9 @@
           <li><a href="../aloe/ingredients.html"><span data-i18n="gnb.aloe_ingredients">원료 &amp; 재배</span></a></li><li><a href="../aloe/rnd.html"><span data-i18n="gnb.aloe_rnd">연구개발 &amp; 특허</span></a></li><li><a href="../aloe/quality.html"><span data-i18n="gnb.aloe_quality">품질 &amp; 인증</span></a></li>
         </ul></div>
         <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_products">제품 &amp; 브랜드</span></strong><ul>
-          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li>
-        </ul></div>
-        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_support">고객지원</span></strong><ul>
-          <li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li>
-        </ul></div>
+          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li></ul><strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_sustainability">지속가능경영</span></strong><ul><li><a href="../sustainability/social.html"><span data-i18n="gnb.sustainability_social">사회성과</span></a></li><li><a href="../sustainability/environment.html"><span data-i18n="gnb.sustainability_environment">환경성과</span></a></li><li><a href="../sustainability/csv.html"><span data-i18n="gnb.sustainability_csv">공유가치창출(CSV)</span></a></li></ul></div>
+        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_newsroom">뉴스룸</span></strong><ul><li><a href="../newsroom/index.html"><span data-i18n="gnb.newsroom_press">보도자료</span></a></li><li><a href="../newsroom/news.html"><span data-i18n="gnb.newsroom_news">기업 소식</span></a></li><li><a href="../newsroom/videos.html"><span data-i18n="gnb.newsroom_videos">영상 자료실</span></a></li></ul>
+        <strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_support">고객지원</span></strong><ul><li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li></ul></div>
       </nav>
       <div class="footer__bottom">
         <address class="footer__address"><strong>(주)유니베라</strong><span>대표이사: 김교만</span><span>사업자등록번호: [미확인]</span><span>주소: 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터</span><span>대표전화: 080-022-7575</span></address>

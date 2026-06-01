@@ -13,7 +13,7 @@
 
   <header class="gnb" id="gnb" role="banner">
     <div class="gnb__inner">
-      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><span class="gnb__logo-text">UNIVERA</span></a>
+      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="gnb__logo-img" width="120" height="36"></a>
       <nav class="gnb__nav" id="gnbNav" role="navigation" aria-label="주 메뉴">
         <ul class="gnb__menu">
           <li class="gnb__item" data-menu="about"><a href="../about/index.html" class="gnb__link"><span data-i18n="gnb.about">유니베라 소개</span><span class="gnb__link-arrow" aria-hidden="true">▾</span></a>
@@ -51,7 +51,7 @@
           </li>
         </ul>
       </nav>
-      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div><a href="#" class="btn btn--orange btn--sm" target="_blank" rel="noopener"><span data-i18n="gnb.buy_btn">멤버스몰 구매</span></a></div>
+      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div></div>
       <button class="gnb__hamburger" id="gnbHamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnbNav">
         <span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span>
       </button>
@@ -64,12 +64,12 @@
       <div class="page-hero__inner">
         <nav aria-label="브레드크럼" class="breadcrumb">
           <a href="../index.html" data-i18n="common.home">홈</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <a href="../about/index.html">유니베라 소개</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <span class="breadcrumb__current" aria-current="page">글로벌 현황</span>
+          <a href="../about/index.html" data-i18n="gnb.about">유니베라 소개</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span class="breadcrumb__current" aria-current="page" data-i18n="gnb.about_global">글로벌 현황</span>
         </nav>
-        <p class="page-hero__label">유니베라 소개</p>
-        <h1 class="page-hero__title">세계 4개국에서 키운 알로에</h1>
-        <p class="page-hero__desc">멕시코·도미니카·미국·한국, 최적의 기후 환경에서 직접 재배하는 3,733만㎡ 글로벌 농장</p>
+        <p class="page-hero__label" data-i18n="gnb.about">유니베라 소개</p>
+        <h1 class="page-hero__title" data-i18n="p.global.title">세계 4개국에서 키운 알로에</h1>
+        <p class="page-hero__desc" data-i18n="p.global.desc">멕시코·도미니카·미국·한국, 최적의 기후 환경에서 직접 재배하는 3,733만㎡ 글로벌 농장</p>
       </div>
     </section>
     <section class="section section--alt">
@@ -79,47 +79,47 @@
         <div class="global-overview">
           <div>
             <span class="global-overview__num">4</span>
-            <span class="global-overview__label">재배 국가</span>
-            <span class="global-overview__desc">멕시코·도미니카공화국·미국·한국</span>
+            <span class="global-overview__label" data-i18n="body.global.stat1_l">재배 국가</span>
+            <span class="global-overview__desc" data-i18n="body.global.stat1_d">멕시코·도미니카공화국·미국·한국</span>
           </div>
           <div>
-            <span class="global-overview__num">3,733만㎡</span>
-            <span class="global-overview__label">총 농장 면적</span>
-            <span class="global-overview__desc">여의도 면적의 약 12배 규모</span>
+            <span class="global-overview__num" data-i18n="body.global.stat2_n">3,733만㎡</span>
+            <span class="global-overview__label" data-i18n="body.global.stat2_l">총 농장 면적</span>
+            <span class="global-overview__desc" data-i18n="body.global.stat2_d">여의도 면적의 약 12배 규모</span>
           </div>
           <div>
-            <span class="global-overview__num">50년+</span>
-            <span class="global-overview__label">알로에 재배 역사</span>
-            <span class="global-overview__desc">1976년 창립 이후 직접 재배</span>
+            <span class="global-overview__num" data-i18n="body.global.stat3_n">50년+</span>
+            <span class="global-overview__label" data-i18n="body.global.stat3_l">알로에 재배 역사</span>
+            <span class="global-overview__desc" data-i18n="body.global.stat3_d">1976년 창립 이후 직접 재배</span>
           </div>
         </div>
 
         <!-- 섹션 소개 -->
         <div style="max-width:640px; margin:0 auto var(--space-10); text-align:center;">
-          <p style="font-size:var(--font-size-md); color:var(--color-text-secondary); line-height:var(--line-height-loose);">
+          <p style="font-size:var(--font-size-md); color:var(--color-text-secondary); line-height:var(--line-height-loose);" data-i18n="body.global.intro">
             유니베라는 알로에베라가 가장 잘 자라는 환경을 찾아 세계 4개국에 직영 농장을 운영합니다. 외주 원료가 아닌 직접 재배를 고집하는 이유는 하나 — 원료 품질을 처음부터 직접 책임지기 위해서입니다.
           </p>
         </div>
 
         <!-- 4개국 농장 카드 -->
-        <h2 style="font-size:var(--font-size-xl); color:var(--color-primary); margin-bottom:var(--space-6);">4개국 직영 알로에 농장</h2>
+        <h2 style="font-size:var(--font-size-xl); color:var(--color-primary); margin-bottom:var(--space-6);" data-i18n="body.global.farms_h">4개국 직영 알로에 농장</h2>
         <div class="country-grid">
 
           <div class="country-card">
             <div class="country-card__header">
               <span class="country-card__flag" aria-hidden="true">🇲🇽</span>
               <div>
-                <p class="country-card__name">멕시코</p>
+                <p class="country-card__name" data-i18n="body.global.mx_name">멕시코</p>
                 <p class="country-card__en">Mexico</p>
               </div>
             </div>
             <div class="country-card__body">
-              <span class="country-card__climate">☀️ 건조 아열대 기후</span>
-              <p class="country-card__desc">멕시코는 유니베라 글로벌 농장 중 최대 규모를 자랑하는 핵심 재배지입니다. 강렬한 일조량과 낮은 습도, 배수가 좋은 토양이 알로에베라 최적의 생장 조건을 제공합니다. 유니베라 전체 알로에 원료의 상당 부분이 이곳에서 재배됩니다.</p>
+              <span class="country-card__climate" data-i18n="body.global.mx_climate">☀️ 건조 아열대 기후</span>
+              <p class="country-card__desc" data-i18n="body.global.mx_desc">멕시코는 유니베라 글로벌 농장 중 최대 규모를 자랑하는 핵심 재배지입니다. 강렬한 일조량과 낮은 습도, 배수가 좋은 토양이 알로에베라 최적의 생장 조건을 제공합니다. 유니베라 전체 알로에 원료의 상당 부분이 이곳에서 재배됩니다.</p>
               <div class="country-card__features">
-                <span class="country-card__feature">최대 재배 규모</span>
-                <span class="country-card__feature">풍부한 일조량</span>
-                <span class="country-card__feature">핵심 원료 공급지</span>
+                <span class="country-card__feature" data-i18n="body.global.mx_f1">최대 재배 규모</span>
+                <span class="country-card__feature" data-i18n="body.global.mx_f2">풍부한 일조량</span>
+                <span class="country-card__feature" data-i18n="body.global.mx_f3">핵심 원료 공급지</span>
               </div>
             </div>
           </div>
@@ -128,17 +128,17 @@
             <div class="country-card__header">
               <span class="country-card__flag" aria-hidden="true">🇩🇴</span>
               <div>
-                <p class="country-card__name">도미니카공화국</p>
+                <p class="country-card__name" data-i18n="body.global.do_name">도미니카공화국</p>
                 <p class="country-card__en">Dominican Republic</p>
               </div>
             </div>
             <div class="country-card__body">
-              <span class="country-card__climate">🌴 열대 기후</span>
-              <p class="country-card__desc">카리브해에 위치한 도미니카공화국은 연중 따뜻하고 풍부한 강수량을 자랑합니다. 열대 기후 특유의 자연환경에서 재배된 알로에베라는 독특한 활성 성분 구성을 가지며, 유니베라의 원료 다양성을 높이는 데 기여합니다.</p>
+              <span class="country-card__climate" data-i18n="body.global.do_climate">🌴 열대 기후</span>
+              <p class="country-card__desc" data-i18n="body.global.do_desc">카리브해에 위치한 도미니카공화국은 연중 따뜻하고 풍부한 강수량을 자랑합니다. 열대 기후 특유의 자연환경에서 재배된 알로에베라는 독특한 활성 성분 구성을 가지며, 유니베라의 원료 다양성을 높이는 데 기여합니다.</p>
               <div class="country-card__features">
-                <span class="country-card__feature">열대 자연환경</span>
-                <span class="country-card__feature">풍부한 강수량</span>
-                <span class="country-card__feature">원료 다양성 확보</span>
+                <span class="country-card__feature" data-i18n="body.global.do_f1">열대 자연환경</span>
+                <span class="country-card__feature" data-i18n="body.global.do_f2">풍부한 강수량</span>
+                <span class="country-card__feature" data-i18n="body.global.do_f3">원료 다양성 확보</span>
               </div>
             </div>
           </div>
@@ -147,17 +147,17 @@
             <div class="country-card__header">
               <span class="country-card__flag" aria-hidden="true">🇺🇸</span>
               <div>
-                <p class="country-card__name">미국</p>
+                <p class="country-card__name" data-i18n="body.global.us_name">미국</p>
                 <p class="country-card__en">United States</p>
               </div>
             </div>
             <div class="country-card__body">
-              <span class="country-card__climate">🌵 반건조 온난 기후</span>
-              <p class="country-card__desc">미국 직영 농장은 알로에 재배에 적합한 반건조 온난 기후 지역에 위치합니다. FDA GRAS 인증 원료를 생산하는 이 농장은 미국 내 품질 기준을 충족하며, 글로벌 수출 원료의 중요한 공급원 역할을 합니다.</p>
+              <span class="country-card__climate" data-i18n="body.global.us_climate">🌵 반건조 온난 기후</span>
+              <p class="country-card__desc" data-i18n="body.global.us_desc">미국 직영 농장은 알로에 재배에 적합한 반건조 온난 기후 지역에 위치합니다. FDA GRAS 인증 원료를 생산하는 이 농장은 미국 내 품질 기준을 충족하며, 글로벌 수출 원료의 중요한 공급원 역할을 합니다.</p>
               <div class="country-card__features">
-                <span class="country-card__feature">FDA GRAS 인증 원료</span>
-                <span class="country-card__feature">글로벌 수출 원료</span>
-                <span class="country-card__feature">국제 품질 기준</span>
+                <span class="country-card__feature" data-i18n="body.global.us_f1">FDA GRAS 인증 원료</span>
+                <span class="country-card__feature" data-i18n="body.global.us_f2">글로벌 수출 원료</span>
+                <span class="country-card__feature" data-i18n="body.global.us_f3">국제 품질 기준</span>
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@
             <div class="country-card__header">
               <span class="country-card__flag" aria-hidden="true">🇰🇷</span>
               <div>
-                <p class="country-card__name">한국</p>
+                <p class="country-card__name" data-i18n="body.global.kr_name">한국</p>
                 <p class="country-card__en">Republic of Korea</p>
               </div>
             </div>
@@ -176,7 +176,7 @@
               <div class="country-card__features">
                 <span class="country-card__feature">국내 연구 재배</span>
                 <span class="country-card__feature">신품종 개발</span>
-                <span class="country-card__feature">에코넷 관리 거점</span>
+                <span class="country-card__feature" data-i18n="body.global.kr_f2">에코넷 관리 거점</span>
               </div>
             </div>
           </div>
@@ -184,27 +184,27 @@
         </div><!-- /.country-grid -->
 
         <!-- 직접 재배의 가치 -->
-        <h2 style="font-size:var(--font-size-xl); color:var(--color-primary); margin-bottom:var(--space-6);">직접 재배가 만드는 차이</h2>
+        <h2 style="font-size:var(--font-size-xl); color:var(--color-primary); margin-bottom:var(--space-6);" data-i18n="body.global.diff_h">직접 재배가 만드는 차이</h2>
         <div class="global-values">
           <div class="global-value">
             <span class="global-value__icon" aria-hidden="true">🎯</span>
-            <p class="global-value__title">원료 품질 직접 통제</p>
-            <p class="global-value__desc">씨앗 선별부터 수확까지 유니베라가 직접 관리합니다. 외주 원료에 의존하지 않기 때문에 원료 품질의 일관성을 보장할 수 있습니다.</p>
+            <p class="global-value__title" data-i18n="body.global.diff_f1">원료 품질 직접 통제</p>
+            <p class="global-value__desc" data-i18n="body.global.diff_d1">씨앗 선별부터 수확까지 유니베라가 직접 관리합니다. 외주 원료에 의존하지 않기 때문에 원료 품질의 일관성을 보장할 수 있습니다.</p>
           </div>
           <div class="global-value">
             <span class="global-value__icon" aria-hidden="true">🌍</span>
-            <p class="global-value__title">기후별 최적 재배 환경</p>
-            <p class="global-value__desc">한 곳에서만 재배하지 않고 4개국의 서로 다른 기후 조건을 활용합니다. 각 국가의 자연환경이 알로에의 서로 다른 특성을 끌어냅니다.</p>
+            <p class="global-value__title" data-i18n="body.global.diff_f2">기후별 최적 재배 환경</p>
+            <p class="global-value__desc" data-i18n="body.global.diff_d2">한 곳에서만 재배하지 않고 4개국의 서로 다른 기후 조건을 활용합니다. 각 국가의 자연환경이 알로에의 서로 다른 특성을 끌어냅니다.</p>
           </div>
           <div class="global-value">
             <span class="global-value__icon" aria-hidden="true">🔬</span>
-            <p class="global-value__title">과학적 품질 기준 적용</p>
-            <p class="global-value__desc">Global GAP, GMP, FDA GRAS 등 국내외 공인 기준을 모든 농장에 적용합니다. 국가와 관계없이 동일한 품질 기준이 유지됩니다.</p>
+            <p class="global-value__title" data-i18n="body.global.diff_f3">과학적 품질 기준 적용</p>
+            <p class="global-value__desc" data-i18n="body.global.diff_d3">Global GAP, GMP, FDA GRAS 등 국내외 공인 기준을 모든 농장에 적용합니다. 국가와 관계없이 동일한 품질 기준이 유지됩니다.</p>
           </div>
         </div>
 
         <div style="text-align:center;">
-          <a href="../aloe/econet.html" class="btn btn--navy btn--sm">에코넷 시스템 자세히 보기</a>
+          <a href="../aloe/econet.html" class="btn btn--navy btn--sm" data-i18n="body.global.diff_btn">에코넷 시스템 자세히 보기</a>
         </div>
 
       </div>
@@ -214,7 +214,7 @@
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__top">
-        <div class="footer__brand"><span class="footer__logo">UNIVERA</span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
+        <div class="footer__brand"><span class="footer__logo"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="footer__logo-img" width="100" height="28"></span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
         <nav class="footer__family" aria-label="패밀리 사이트"><span class="footer__family-label" data-i18n="footer.family_label">패밀리 사이트</span><a href="#" target="_blank" rel="noopener">멤버스몰</a></nav>
       </div>
       <nav class="footer__sitemap" aria-label="사이트맵">
@@ -228,11 +228,9 @@
           <li><a href="../aloe/ingredients.html"><span data-i18n="gnb.aloe_ingredients">원료 &amp; 재배</span></a></li><li><a href="../aloe/rnd.html"><span data-i18n="gnb.aloe_rnd">연구개발 &amp; 특허</span></a></li><li><a href="../aloe/quality.html"><span data-i18n="gnb.aloe_quality">품질 &amp; 인증</span></a></li>
         </ul></div>
         <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_products">제품 &amp; 브랜드</span></strong><ul>
-          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li>
-        </ul></div>
-        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_support">고객지원</span></strong><ul>
-          <li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li>
-        </ul></div>
+          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li></ul><strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_sustainability">지속가능경영</span></strong><ul><li><a href="../sustainability/social.html"><span data-i18n="gnb.sustainability_social">사회성과</span></a></li><li><a href="../sustainability/environment.html"><span data-i18n="gnb.sustainability_environment">환경성과</span></a></li><li><a href="../sustainability/csv.html"><span data-i18n="gnb.sustainability_csv">공유가치창출(CSV)</span></a></li></ul></div>
+        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_newsroom">뉴스룸</span></strong><ul><li><a href="../newsroom/index.html"><span data-i18n="gnb.newsroom_press">보도자료</span></a></li><li><a href="../newsroom/news.html"><span data-i18n="gnb.newsroom_news">기업 소식</span></a></li><li><a href="../newsroom/videos.html"><span data-i18n="gnb.newsroom_videos">영상 자료실</span></a></li></ul>
+        <strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_support">고객지원</span></strong><ul><li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li></ul></div>
       </nav>
       <div class="footer__bottom">
         <address class="footer__address"><strong>(주)유니베라</strong><span>대표이사: 김교만</span><span>사업자등록번호: [미확인]</span><span>주소: 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터</span><span>대표전화: 080-022-7575</span></address>

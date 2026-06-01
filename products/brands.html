@@ -12,7 +12,7 @@
 <body>
   <header class="gnb" id="gnb" role="banner">
     <div class="gnb__inner">
-      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><span class="gnb__logo-text">UNIVERA</span></a>
+      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="gnb__logo-img" width="120" height="36"></a>
       <nav class="gnb__nav" id="gnbNav" role="navigation" aria-label="주 메뉴">
         <ul class="gnb__menu">
           <li class="gnb__item" data-menu="about"><a href="../about/index.html" class="gnb__link"><span data-i18n="gnb.about">유니베라 소개</span><span class="gnb__link-arrow" aria-hidden="true">▾</span></a>
@@ -50,7 +50,7 @@
           </li>
         </ul>
       </nav>
-      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div><a href="#" class="btn btn--orange btn--sm" target="_blank" rel="noopener"><span data-i18n="gnb.buy_btn">멤버스몰 구매</span></a></div>
+      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div></div>
       <button class="gnb__hamburger" id="gnbHamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnbNav">
         <span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span>
       </button>
@@ -63,36 +63,36 @@
       <div class="page-hero__inner">
         <nav aria-label="브레드크럼" class="breadcrumb">
           <a href="../index.html" data-i18n="common.home">홈</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <a href="../products/index.html">제품 &amp; 브랜드</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <span class="breadcrumb__current" aria-current="page">브랜드 소개</span>
+          <a href="../products/index.html" data-i18n="gnb.products">제품 &amp; 브랜드</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span class="breadcrumb__current" aria-current="page" data-i18n="gnb.products_brands">브랜드 소개</span>
         </nav>
-        <p class="page-hero__label">제품 &amp; 브랜드</p>
-        <h1 class="page-hero__title">브랜드 소개</h1>
-        <p class="page-hero__desc">유니베라의 각 브랜드가 가진 철학과 특징</p>
+        <p class="page-hero__label" data-i18n="gnb.products">제품 &amp; 브랜드</p>
+        <h1 class="page-hero__title" data-i18n="p.brands.title">브랜드 소개</h1>
+        <p class="page-hero__desc" data-i18n="p.brands.desc">유니베라의 각 브랜드가 가진 철학과 특징</p>
       </div>
     </section>
     <section class="section section--alt">
       <div class="section__inner">
-        <p class="section__lead">유니베라는 50년 알로에 연구를 바탕으로 건강기능식품과 스킨케어 제품을 UNIVERA 브랜드 하나로 운영합니다.</p>
+        <p class="section__lead" data-i18n="body.products_list.lead_brand">유니베라는 50년 알로에 연구를 바탕으로 건강기능식품과 스킨케어 제품을 UNIVERA 브랜드 하나로 운영합니다.</p>
 
         <div class="brand-card-wrap">
 
           <div class="brand-card">
             <div class="brand-card__header brand-card__header--primary">
               <span class="brand-card__logo">UNIVERA</span>
-              <span class="brand-card__tagline">알로에 전문 브랜드</span>
+              <span class="brand-card__tagline" data-i18n="body.products_list.brand_tagline">알로에 전문 브랜드</span>
             </div>
             <div class="brand-card__body">
               <p>UNIVERA 브랜드는 유니베라의 50년 알로에 연구를 건강기능식품과 스킨케어로 구현합니다. 면역·혈행, 장·소화, 피로개선, 여성건강, 근육·관절 등 인체 9개 기능 영역별 건강기능식품과 알로에 기반 스킨케어 제품을 운영합니다.</p>
               <p>모든 UNIVERA 제품은 유니베라 직영 농장에서 재배된 알로에 원료와 GMP 인증 공장에서 생산됩니다. 원료 재배부터 완제품 생산까지 에코넷 시스템으로 일원화 관리됩니다.</p>
               <div class="brand-card__features">
-                <span class="brand-card__feat">50년 알로에 연구</span>
-                <span class="brand-card__feat">GMP 인증 공장</span>
-                <span class="brand-card__feat">9개 기능 영역</span>
-                <span class="brand-card__feat">직영 농장 원료</span>
+                <span class="brand-card__feat" data-i18n="body.products_list.feat1">50년 알로에 연구</span>
+                <span class="brand-card__feat" data-i18n="body.products_list.feat2">GMP 인증 공장</span>
+                <span class="brand-card__feat" data-i18n="body.products_list.feat3">9개 기능 영역</span>
+                <span class="brand-card__feat" data-i18n="body.products_list.feat4">직영 농장 원료</span>
               </div>
               <div class="brand-card__products">
-                <h4>건강기능식품 대표 제품</h4>
+                <h4 data-i18n="body.products_list.hs_h">건강기능식품 대표 제품</h4>
                 <ul>
                   <li>슈퍼겔 W (면역·혈행, 세계일류상품)</li>
                   <li>알로인 (장·소화)</li>
@@ -100,13 +100,13 @@
                   <li>이지엑스 (피로개선)</li>
                   <li>삼당 331 플러스 (간·영양)</li>
                 </ul>
-                <h4 style="margin-top:var(--space-4);">스킨케어 대표 제품</h4>
+                <h4 style="margin-top:var(--space-4);" data-i18n="body.products_list.sc_h">스킨케어 대표 제품</h4>
                 <ul>
                   <li>알로엔 디오리진 스킨케어100 (2025 출시)</li>
                 </ul>
               </div>
               <div style="margin-top:var(--space-5);">
-                <a href="../products/all-products.html" class="btn btn--primary btn--sm">전체 제품 보기</a>
+                <a href="../products/all-products.html" class="btn btn--primary btn--sm" data-i18n="body.products_list.btn_all">전체 제품 보기</a>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__top">
-        <div class="footer__brand"><span class="footer__logo">UNIVERA</span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
+        <div class="footer__brand"><span class="footer__logo"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="footer__logo-img" width="100" height="28"></span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
         <nav class="footer__family" aria-label="패밀리 사이트"><span class="footer__family-label" data-i18n="footer.family_label">패밀리 사이트</span><a href="#" target="_blank" rel="noopener">멤버스몰</a></nav>
       </div>
       <nav class="footer__sitemap" aria-label="사이트맵">
@@ -137,11 +137,9 @@
           <li><a href="../aloe/ingredients.html"><span data-i18n="gnb.aloe_ingredients">원료 &amp; 재배</span></a></li><li><a href="../aloe/rnd.html"><span data-i18n="gnb.aloe_rnd">연구개발 &amp; 특허</span></a></li><li><a href="../aloe/quality.html"><span data-i18n="gnb.aloe_quality">품질 &amp; 인증</span></a></li>
         </ul></div>
         <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_products">제품 &amp; 브랜드</span></strong><ul>
-          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li>
-        </ul></div>
-        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_support">고객지원</span></strong><ul>
-          <li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li>
-        </ul></div>
+          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li></ul><strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_sustainability">지속가능경영</span></strong><ul><li><a href="../sustainability/social.html"><span data-i18n="gnb.sustainability_social">사회성과</span></a></li><li><a href="../sustainability/environment.html"><span data-i18n="gnb.sustainability_environment">환경성과</span></a></li><li><a href="../sustainability/csv.html"><span data-i18n="gnb.sustainability_csv">공유가치창출(CSV)</span></a></li></ul></div>
+        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_newsroom">뉴스룸</span></strong><ul><li><a href="../newsroom/index.html"><span data-i18n="gnb.newsroom_press">보도자료</span></a></li><li><a href="../newsroom/news.html"><span data-i18n="gnb.newsroom_news">기업 소식</span></a></li><li><a href="../newsroom/videos.html"><span data-i18n="gnb.newsroom_videos">영상 자료실</span></a></li></ul>
+        <strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_support">고객지원</span></strong><ul><li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li></ul></div>
       </nav>
       <div class="footer__bottom">
         <address class="footer__address"><strong>(주)유니베라</strong><span>대표이사: 김교만</span><span>사업자등록번호: [미확인]</span><span>주소: 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터</span><span>대표전화: 080-022-7575</span></address>

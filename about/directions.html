@@ -13,7 +13,7 @@
 
   <header class="gnb" id="gnb" role="banner">
     <div class="gnb__inner">
-      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><span class="gnb__logo-text">UNIVERA</span></a>
+      <a href="../index.html" class="gnb__logo" aria-label="유니베라 홈으로 이동"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="gnb__logo-img" width="120" height="36"></a>
       <nav class="gnb__nav" id="gnbNav" role="navigation" aria-label="주 메뉴">
         <ul class="gnb__menu">
           <li class="gnb__item" data-menu="about"><a href="../about/index.html" class="gnb__link"><span data-i18n="gnb.about">유니베라 소개</span><span class="gnb__link-arrow" aria-hidden="true">▾</span></a>
@@ -51,7 +51,7 @@
           </li>
         </ul>
       </nav>
-      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div><a href="#" class="btn btn--orange btn--sm" target="_blank" rel="noopener"><span data-i18n="gnb.buy_btn">멤버스몰 구매</span></a></div>
+      <div class="gnb__actions"><div class="lang-switcher" aria-label="언어 선택"><button class="lang-btn is-active" data-lang="ko">KO</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">ZH</button><button class="lang-btn" data-lang="ja">JA</button></div></div>
       <button class="gnb__hamburger" id="gnbHamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnbNav">
         <span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span><span class="gnb__hamburger-bar"></span>
       </button>
@@ -64,12 +64,12 @@
       <div class="page-hero__inner">
         <nav aria-label="브레드크럼" class="breadcrumb">
           <a href="../index.html" data-i18n="common.home">홈</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <a href="../about/index.html">유니베라 소개</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
-          <span class="breadcrumb__current" aria-current="page">오시는 길</span>
+          <a href="../about/index.html" data-i18n="gnb.about">유니베라 소개</a><span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span class="breadcrumb__current" aria-current="page" data-i18n="gnb.about_directions">오시는 길</span>
         </nav>
-        <p class="page-hero__label">유니베라 소개</p>
-        <h1 class="page-hero__title">유니베라 찾아오시는 길</h1>
-        <p class="page-hero__desc">본사 및 주요 시설 위치 안내</p>
+        <p class="page-hero__label" data-i18n="gnb.about">유니베라 소개</p>
+        <h1 class="page-hero__title" data-i18n="p.directions.title">유니베라 찾아오시는 길</h1>
+        <p class="page-hero__desc" data-i18n="p.directions.desc">본사 및 주요 시설 위치 안내</p>
       </div>
     </section>
     <section class="section section--alt">
@@ -77,28 +77,29 @@
         <div class="directions-wrap">
 
           <div class="map-embed">
-            <!-- 카카오맵 — 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터 유니베라 -->
+            <!-- Google Maps — 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터 유니베라 -->
             <iframe
-              src="https://map.kakao.com/link/embed/map?latitude=36.7795&longitude=127.2953&level=3&title=%EC%9C%A0%EB%8B%88%EB%B2%A0%EB%9D%BC%20%EC%9C%84%EC%A6%88%EB%8D%A4%EC%84%BC%ED%84%B0"
+              src="https://maps.google.com/maps?q=충청남도+천안시+동남구+병천면+매봉로+450-86&z=16&output=embed&hl=ko"
               title="유니베라 위즈덤센터 위치"
               loading="lazy"
-              allowfullscreen></iframe>
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div class="directions-info">
             <div class="directions-info__address">
-              <h3>유니베라 본사 위즈덤센터</h3>
+              <h3 data-i18n="body.directions.hq_h">유니베라 본사 위즈덤센터</h3>
               <dl>
                 <div class="address-row">
-                  <dt>주소</dt>
+                  <dt data-i18n="body.directions.addr_lbl">주소</dt>
                   <dd>충청남도 천안시 동남구 병천면 매봉로 450-86<br>위즈덤센터 유니베라</dd>
                 </div>
                 <div class="address-row">
-                  <dt>고객센터</dt>
-                  <dd>080-022-7575<br>(평일 09:00 – 17:30, 수신자 부담)</dd>
+                  <dt data-i18n="body.directions.cs_lbl">고객센터</dt>
+                  <dd data-i18n="body.directions.cs_hours_dd">080-022-7575<br>(평일 09:00 – 17:30, 수신자 부담)</dd>
                 </div>
                 <div class="address-row">
-                  <dt>대표전화</dt>
+                  <dt data-i18n="body.directions.tel_lbl">대표전화</dt>
                   <dd>080-022-7575</dd>
                 </div>
               </dl>
@@ -106,30 +107,30 @@
 
             <div class="transport-card">
               <div class="transport-card__icon" aria-hidden="true">🚗</div>
-              <h4>자동차 이용 시</h4>
-              <p>경부고속도로 목천IC 이용 → 병천 방면 약 15분 이동. 내비게이션에 '유니베라 위즈덤센터' 또는 '충청남도 천안시 동남구 병천면 매봉로 450-86' 입력하세요.</p>
+              <h4 data-i18n="body.directions.car_h">자동차 이용 시</h4>
+              <p data-i18n="body.directions.car_d">경부고속도로 목천IC 이용 → 병천 방면 약 15분 이동. 내비게이션에 '유니베라 위즈덤센터' 또는 '충청남도 천안시 동남구 병천면 매봉로 450-86' 입력하세요.</p>
             </div>
 
             <div class="transport-card">
               <div class="transport-card__icon" aria-hidden="true">🚌</div>
-              <h4>대중교통 이용 시</h4>
-              <p>천안종합터미널 또는 천안역 하차 후 병천 방면 시내버스 이용. 자세한 버스 노선은 천안시 교통 안내(☎ 041-521-3111)에서 확인하세요.</p>
+              <h4 data-i18n="body.directions.bus_h">대중교통 이용 시</h4>
+              <p data-i18n="body.directions.bus_d">천안종합터미널 또는 천안역 하차 후 병천 방면 시내버스 이용. 자세한 버스 노선은 천안시 교통 안내(☎ 041-521-3111)에서 확인하세요.</p>
             </div>
 
             <div class="transport-card">
               <div class="transport-card__icon" aria-hidden="true">🚆</div>
-              <h4>기차 이용 시</h4>
-              <p>KTX·SRT 천안아산역 또는 일반 열차 천안역 하차 후 택시 또는 버스 이용. 천안역에서 차량으로 약 25분 소요됩니다.</p>
+              <h4 data-i18n="body.directions.train_h">기차 이용 시</h4>
+              <p data-i18n="body.directions.train_d">KTX·SRT 천안아산역 또는 일반 열차 천안역 하차 후 택시 또는 버스 이용. 천안역에서 차량으로 약 25분 소요됩니다.</p>
             </div>
           </div>
 
         </div>
 
         <div class="contact-banner">
-          <p class="contact-banner__title">제품 구매 및 일반 문의</p>
+          <p class="contact-banner__title" data-i18n="body.directions.banner_t">제품 구매 및 일반 문의</p>
           <p class="contact-banner__tel">080-022-7575</p>
-          <p class="contact-banner__hours">평일 09:00 – 17:30 (토·일·공휴일 휴무) · 수신자 부담 무료전화</p>
-          <a href="../support/contact.html" class="btn btn--outline-white btn--sm">고객센터 안내 바로가기</a>
+          <p class="contact-banner__hours" data-i18n="body.directions.banner_hours">평일 09:00 – 17:30 (토·일·공휴일 휴무) · 수신자 부담 무료전화</p>
+          <a href="../support/contact.html" class="btn btn--outline-white btn--sm" data-i18n="body.directions.banner_btn">고객센터 안내 바로가기</a>
         </div>
       </div>
     </section>
@@ -138,7 +139,7 @@
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__top">
-        <div class="footer__brand"><span class="footer__logo">UNIVERA</span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
+        <div class="footer__brand"><span class="footer__logo"><img src="../assets/images/logo.png" alt="유니베라 UNIVERA" class="footer__logo-img" width="100" height="28"></span><p class="footer__tagline" data-i18n="footer.tagline">알로에 전문 기업, 1976년부터 50년</p></div>
         <nav class="footer__family" aria-label="패밀리 사이트"><span class="footer__family-label" data-i18n="footer.family_label">패밀리 사이트</span><a href="#" target="_blank" rel="noopener">멤버스몰</a></nav>
       </div>
       <nav class="footer__sitemap" aria-label="사이트맵">
@@ -152,11 +153,9 @@
           <li><a href="../aloe/ingredients.html"><span data-i18n="gnb.aloe_ingredients">원료 &amp; 재배</span></a></li><li><a href="../aloe/rnd.html"><span data-i18n="gnb.aloe_rnd">연구개발 &amp; 특허</span></a></li><li><a href="../aloe/quality.html"><span data-i18n="gnb.aloe_quality">품질 &amp; 인증</span></a></li>
         </ul></div>
         <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_products">제품 &amp; 브랜드</span></strong><ul>
-          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li>
-        </ul></div>
-        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_support">고객지원</span></strong><ul>
-          <li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li>
-        </ul></div>
+          <li><a href="../products/by-function.html"><span data-i18n="gnb.products_by_function">인체 기능별 분류</span></a></li><li><a href="../products/all-products.html"><span data-i18n="gnb.products_all">전체 제품 목록</span></a></li><li><a href="../products/brands.html"><span data-i18n="gnb.products_brands">브랜드 소개</span></a></li></ul><strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_sustainability">지속가능경영</span></strong><ul><li><a href="../sustainability/social.html"><span data-i18n="gnb.sustainability_social">사회성과</span></a></li><li><a href="../sustainability/environment.html"><span data-i18n="gnb.sustainability_environment">환경성과</span></a></li><li><a href="../sustainability/csv.html"><span data-i18n="gnb.sustainability_csv">공유가치창출(CSV)</span></a></li></ul></div>
+        <div class="footer__sitemap-col"><strong><span data-i18n="footer.col_newsroom">뉴스룸</span></strong><ul><li><a href="../newsroom/index.html"><span data-i18n="gnb.newsroom_press">보도자료</span></a></li><li><a href="../newsroom/news.html"><span data-i18n="gnb.newsroom_news">기업 소식</span></a></li><li><a href="../newsroom/videos.html"><span data-i18n="gnb.newsroom_videos">영상 자료실</span></a></li></ul>
+        <strong style="margin-top:1.25rem; display:block;"><span data-i18n="footer.col_support">고객지원</span></strong><ul><li><a href="../support/faq.html"><span data-i18n="gnb.support_faq">FAQ</span></a></li><li><a href="../support/notice.html"><span data-i18n="gnb.support_notice">공지사항</span></a></li><li><a href="../support/contact.html"><span data-i18n="gnb.support_contact">고객센터 안내</span></a></li></ul></div>
       </nav>
       <div class="footer__bottom">
         <address class="footer__address"><strong>(주)유니베라</strong><span>대표이사: 김교만</span><span>사업자등록번호: [미확인]</span><span>주소: 충청남도 천안시 동남구 병천면 매봉로 450-86 위즈덤센터</span><span>대표전화: 080-022-7575</span></address>
