@@ -931,34 +931,39 @@ body.menu-open {
 }
 
 /* ── 배경 알로에 스케치 장식 ── */
-.hero__aloe {
+/* 알로에 배경 — CSS pseudo-element로 진짜 배경처럼 처리 */
+.hero::before {
+  content: '';
   position: absolute;
+  left: -80px;
+  bottom: -120px;
+  width: 620px;
+  height: 620px;
+  background-image: url('../images/aloe-sketch.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  opacity: 0.13;
+  mix-blend-mode: multiply;
   pointer-events: none;
   z-index: 0;
 }
 
-.hero__aloe img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
+.hero::after {
+  content: '';
+  position: absolute;
+  right: -60px;
+  top: -50px;
+  width: 380px;
+  height: 380px;
+  background-image: url('../images/aloe-sketch.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.07;
   mix-blend-mode: multiply;
-}
-
-.hero__aloe--left {
-  width: 680px;
-  height: 680px;
-  left: -120px;
-  bottom: -150px;
-  opacity: 0.14;
-}
-
-.hero__aloe--right {
-  width: 420px;
-  height: 420px;
-  right: -80px;
-  top: -60px;
-  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
   transform: scaleX(-1);
 }
 
@@ -3222,15 +3227,15 @@ body.menu-open {
     gap: var(--space-6);
   }
 
-  /* ── 히어로 알로에 스케치 ── */
-  .hero__aloe--left {
-    width: 360px;
-    height: 360px;
-    left: -80px;
-    bottom: -80px;
-    opacity: 0.12;
+  /* ── 히어로 알로에 배경 ── */
+  .hero::before {
+    width: 320px;
+    height: 320px;
+    left: -60px;
+    bottom: -60px;
+    opacity: 0.10;
   }
-  .hero__aloe--right {
+  .hero::after {
     display: none;
   }
 
