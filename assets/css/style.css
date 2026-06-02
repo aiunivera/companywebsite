@@ -935,37 +935,18 @@ body.menu-open {
 .hero::before {
   content: '';
   position: absolute;
-  left: -80px;
-  bottom: -120px;
-  width: 620px;
-  height: 620px;
-  background-image: url('../images/aloe-sketch.png');
-  background-size: contain;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201440%20760%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%20%3Cdefs%3E%20%3ClinearGradient%20id%3D%22f1%22%20x1%3D%221%22%20y1%3D%220%22%20x2%3D%220.05%22%20y2%3D%221%22%3E%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%235e9437%22%20stop-opacity%3D%220.55%22/%3E%3Cstop%20offset%3D%220.45%22%20stop-color%3D%22%237cab4e%22%20stop-opacity%3D%220.26%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23cfe3aa%22%20stop-opacity%3D%220.03%22/%3E%20%3C/linearGradient%3E%20%3ClinearGradient%20id%3D%22f2%22%20x1%3D%221%22%20y1%3D%220%22%20x2%3D%220.05%22%20y2%3D%221%22%3E%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%234e8a2e%22%20stop-opacity%3D%220.46%22/%3E%3Cstop%20offset%3D%220.5%22%20stop-color%3D%22%238cb85e%22%20stop-opacity%3D%220.2%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23cfe3aa%22%20stop-opacity%3D%220.02%22/%3E%20%3C/linearGradient%3E%20%3ClinearGradient%20id%3D%22f3%22%20x1%3D%220.1%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237cab4e%22%20stop-opacity%3D%220.3%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23cfe3aa%22%20stop-opacity%3D%220.02%22/%3E%20%3C/linearGradient%3E%20%3ClinearGradient%20id%3D%22l1%22%20x1%3D%221%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%233a6b1e%22%20stop-opacity%3D%220.9%22/%3E%3Cstop%20offset%3D%220.55%22%20stop-color%3D%22%235e9437%22%20stop-opacity%3D%220.4%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238cb85e%22%20stop-opacity%3D%220%22/%3E%20%3C/linearGradient%3E%20%3ClinearGradient%20id%3D%22l2%22%20x1%3D%221%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%234e8a2e%22%20stop-opacity%3D%220.7%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238cb85e%22%20stop-opacity%3D%220%22/%3E%20%3C/linearGradient%3E%20%3ClinearGradient%20id%3D%22l3%22%20x1%3D%220.1%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%236b9a40%22%20stop-opacity%3D%220.55%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23bcd894%22%20stop-opacity%3D%220%22/%3E%20%3C/linearGradient%3E%20%3Cfilter%20id%3D%22s%22%20x%3D%22-15%25%22%20y%3D%22-15%25%22%20width%3D%22130%25%22%20height%3D%22130%25%22%3E%3CfeGaussianBlur%20stdDeviation%3D%220.6%22/%3E%3C/filter%3E%20%3C/defs%3E%20%3Cg%20filter%3D%22url%28%23s%29%22%3E%20%3Cg%3E%20%3Cpath%20d%3D%22M700%20-120%20C820%20130%20950%20330%201080%20480%20C1210%20630%201360%20730%201600%20880%20L1640%20660%20C1430%20540%201290%20420%201180%20250%20C1080%20100%20950%20-30%20840%20-120%20Z%22%20fill%3D%22url%28%23f1%29%22/%3E%20%3Cpath%20d%3D%22M840%20-120%20C950%20-30%201080%20100%201180%20250%20C1290%20420%201430%20540%201640%20660%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l1%29%22%20stroke-width%3D%221.6%22/%3E%20%3Cpath%20d%3D%22M812%20-120%20C926%20-25%201054%20110%201156%20262%20C1270%20432%201408%20552%201620%20672%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l1%29%22%20stroke-width%3D%221.2%22%20opacity%3D%220.85%22/%3E%20%3Cpath%20d%3D%22M784%20-120%20C902%20-20%201030%20120%201132%20274%20C1248%20444%201386%20564%201600%20684%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l2%29%22%20stroke-width%3D%221.1%22%20opacity%3D%220.78%22/%3E%20%3Cpath%20d%3D%22M756%20-120%20C878%20-14%201006%20130%201108%20286%20C1226%20456%201364%20576%201580%20696%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l2%29%22%20stroke-width%3D%221.1%22%20opacity%3D%220.7%22/%3E%20%3Cpath%20d%3D%22M728%20-120%20C854%20-8%20982%20140%201084%20298%20C1204%20468%201342%20588%201560%20708%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.62%22/%3E%20%3Cpath%20d%3D%22M700%20-120%20C830%20-2%20958%20150%201060%20310%20C1182%20480%201320%20600%201540%20720%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.54%22/%3E%20%3Cpath%20d%3D%22M672%20-120%20C806%204%20934%20160%201036%20322%20C1160%20492%201298%20612%201520%20732%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.46%22/%3E%20%3C/g%3E%20%3Cg%3E%20%3Cpath%20d%3D%22M400%20-120%20C540%20150%20720%20300%20920%20430%20C1120%20560%201360%20660%201640%20780%20L1640%20520%20C1340%20410%201120%20320%20940%20200%20C800%20106%20640%20-40%20520%20-120%20Z%22%20fill%3D%22url%28%23f2%29%22/%3E%20%3Cpath%20d%3D%22M520%20-120%20C640%20-40%20800%20106%20940%20200%20C1120%20320%201340%20410%201640%20520%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l2%29%22%20stroke-width%3D%221.3%22/%3E%20%3Cpath%20d%3D%22M488%20-120%20C612%20-38%20772%20108%20912%20204%20C1094%20322%201320%20416%201640%20542%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.68%22/%3E%20%3Cpath%20d%3D%22M456%20-120%20C584%20-36%20744%20112%20884%20208%20C1066%20326%201300%20424%201640%20566%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.56%22/%3E%20%3Cpath%20d%3D%22M424%20-120%20C556%20-34%20716%20116%20856%20212%20C1044%20330%201280%20432%201640%20590%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.46%22/%3E%20%3C/g%3E%20%3Cg%3E%20%3Cpath%20d%3D%22M-140%2060%20C220%20110%20480%20230%20740%20380%20C1000%20530%201240%20660%201660%20850%20L1660%20580%20C1240%20390%201000%20260%20740%20110%20C480%20-44%20220%20-110%20-140%20-160%20Z%22%20fill%3D%22url%28%23f3%29%22/%3E%20%3Cpath%20d%3D%22M-140%2060%20C220%20110%20480%20230%20740%20380%20C1000%20530%201240%20660%201660%20850%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221.1%22/%3E%20%3Cpath%20d%3D%22M-140%2010%20C222%2062%20484%20190%20746%20340%20C1008%20490%201248%20620%201660%20808%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.55%22/%3E%20%3Cpath%20d%3D%22M-140%20-160%20C220%20-110%20480%20-44%20740%20110%20C1000%20260%201240%20390%201660%20580%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.48%22/%3E%20%3C/g%3E%20%3Cg%3E%20%3Cpath%20d%3D%22M-140%20480%20C200%20410%20480%20340%20740%20430%20C960%20512%201180%20620%201480%20770%20C1580%20820%201620%20840%201660%20855%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221.1%22%20opacity%3D%220.5%22/%3E%20%3Cpath%20d%3D%22M-140%20530%20C212%20458%20492%20386%20754%20476%20C976%20560%201196%20668%201496%20806%22%20fill%3D%22none%22%20stroke%3D%22url%28%23l3%29%22%20stroke-width%3D%221%22%20opacity%3D%220.4%22/%3E%20%3C/g%3E%20%3C/g%3E%20%3C/svg%3E");
+  background-size: cover;
+  background-position: right center;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  opacity: 0.13;
-  mix-blend-mode: multiply;
   pointer-events: none;
   z-index: 0;
 }
 
-.hero::after {
-  content: '';
-  position: absolute;
-  right: -60px;
-  top: -50px;
-  width: 380px;
-  height: 380px;
-  background-image: url('../images/aloe-sketch.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.07;
-  mix-blend-mode: multiply;
-  pointer-events: none;
-  z-index: 0;
-  transform: scaleX(-1);
-}
+.hero::after { content: none; }
 
 /* ── 히어로 이미지 프레임 ── */
 .hero__visual-frame {
