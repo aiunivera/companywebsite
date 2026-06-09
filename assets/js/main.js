@@ -179,6 +179,12 @@ function initCounters() {
       var suffix   = el.getAttribute('data-suffix') || '';
       var duration = 2000;
 
+      var i18nKey = el.getAttribute('data-i18n');
+      if (i18nKey && typeof window.UNIVERA_T === 'function') {
+        var i18nVal = window.UNIVERA_T(i18nKey);
+        if (i18nVal) { el.textContent = i18nVal; observer.unobserve(el); return; }
+      }
+
       if (prefersReduced) {
         el.textContent = target.toLocaleString('ko-KR') + suffix;
         observer.unobserve(el);
