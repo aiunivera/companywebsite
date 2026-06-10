@@ -788,17 +788,17 @@ body.menu-open {
   color: var(--color-white);
 }
 
-/* 그린 아웃라인 (라이트 배경 위 보조) */
+/* 화이트 아웃라인 (다크 배경 위 사용) */
 .btn--outline-white {
   background: transparent;
-  color: var(--color-primary);
-  border-color: var(--color-border);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
 .btn--outline-white:hover {
-  background: var(--color-accent-light);
-  border-color: var(--color-accent);
-  color: var(--color-primary);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 /* 고스트 버튼 */
