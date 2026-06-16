@@ -226,6 +226,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-10);
 }
 
+.care-people__stat {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
 /* ===================================
    SECTION 06: GNB
 =================================== */
