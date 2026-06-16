@@ -177,16 +177,28 @@ function initCounters() {
       var el       = entry.target;
       var target   = parseInt(el.getAttribute('data-count'), 10);
       var suffix   = el.getAttribute('data-suffix') || '';
+      var prefix   = el.getAttribute('data-prefix') || '';
+      var noComma  = el.hasAttribute('data-no-comma');
       var duration = 2000;
 
       var i18nKey = el.getAttribute('data-i18n');
       if (i18nKey && typeof window.UNIVERA_T === 'function') {
         var i18nVal = window.UNIVERA_T(i18nKey);
-        if (i18nVal) { el.textContent = i18nVal; observer.unobserve(el); return; }
+        if (i18nVal) {
+          /* i18n 값이 data-count와 같은 수치면 카운트업 허용 (예: KO "1,000" = target 1000) */
+          var numParsed = parseFloat(i18nVal.replace(/,/g, ''));
+          if (isNaN(numParsed) || Math.round(numParsed) !== target) {
+            el.textContent = i18nVal; observer.unobserve(el); return;
+          }
+        }
+      }
+
+      function fmt(n) {
+        return noComma ? String(n) : n.toLocaleString('ko-KR');
       }
 
       if (prefersReduced) {
-        el.textContent = target.toLocaleString('ko-KR') + suffix;
+        el.textContent = prefix + fmt(target) + suffix;
         observer.unobserve(el);
         return;
       }
@@ -197,11 +209,11 @@ function initCounters() {
         if (!start) start = timestamp;
         var progress = Math.min((timestamp - start) / duration, 1);
         var eased = 1 - Math.pow(1 - progress, 3); /* easeOutCubic */
-        el.textContent = Math.floor(eased * target).toLocaleString('ko-KR') + suffix;
+        el.textContent = prefix + fmt(Math.floor(eased * target)) + suffix;
         if (progress < 1) {
           requestAnimationFrame(step);
         } else {
-          el.textContent = target.toLocaleString('ko-KR') + suffix;
+          el.textContent = prefix + fmt(target) + suffix;
         }
       }
 
