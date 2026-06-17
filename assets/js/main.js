@@ -179,7 +179,7 @@ function initCounters() {
       var suffix   = el.getAttribute('data-suffix') || '';
       var prefix   = el.getAttribute('data-prefix') || '';
       var noComma  = el.hasAttribute('data-no-comma');
-      var duration = 2000;
+      var duration = 1200;
 
       var i18nKey = el.getAttribute('data-i18n');
       if (i18nKey && typeof window.UNIVERA_T === 'function') {
