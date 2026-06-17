@@ -332,7 +332,8 @@
         support_index: { title: 'Customer Support', desc: 'We are here to help with all inquiries about UNIVERA products and services' },
         faq:          { title: 'Frequently Asked Questions', desc: 'Our most-asked questions on products, purchasing, and delivery' },
         notice:       { title: 'Notices', desc: 'Read official notices from UNIVERA' },
-        contact:      { title: 'Contact Us', desc: 'Guidance on product, purchase, and general inquiry channels' }
+        contact:      { title: 'Contact Us', desc: 'Guidance on product, purchase, and general inquiry channels' },
+        trust:        { title: 'Why Trust UNIVERA', desc: 'Our fifty-year journey to address your concerns has become the foundation of trust' }
       },
       body: {
         about_hub: { c1_t:'Corporate Philosophy & Vision',c1_d:'UNIVERA\'s unwavering philosophy of focusing on aloe to stay by customers\' health.',c1_btn:'View →',c2_t:'Founding Story',c2_d:'The founder\'s conviction and 50-year journey to becoming an aloe specialty company.',c2_btn:'View →',c3_t:'Major Milestones',c3_d:'Key milestones from UNIVERA\'s founding in 1976 to its 50th anniversary in 2026.',c3_btn:'View →',c4_t:'Global Presence',c4_d:'Global capabilities starting from company-owned farms in 4 countries worldwide.',c4_btn:'View →',c5_t:'Certifications & Awards',c5_d:'Verified quality credentials including GMP, FDA GRAS, and 23 consecutive World-Class Product awards.',c5_btn:'View →',c6_t:'Directions',c6_d:'Location and contact information for UNIVERA headquarters in Cheonan.',c6_btn:'View →' },
@@ -502,7 +503,8 @@
         support_index: { title: '客户支持', desc: '欢迎就UNIVERA产品和服务的所有问题与我们联系' },
         faq:          { title: '常见问题', desc: '关于产品、购买、配送等最常见问题解答' },
         notice:       { title: '公告', desc: '查看UNIVERA官方公告' },
-        contact:      { title: '联系我们', desc: '产品咨询、购买咨询及一般咨询渠道指南' }
+        contact:      { title: '联系我们', desc: '产品咨询、购买咨询及一般咨询渠道指南' },
+        trust:        { title: '信赖优莎纳的理由', desc: '解答客户顾虑的历程，就是我们信赖的根基' }
       },
       body: {
         about_hub: { c1_t:'企业理念与愿景',c1_d:'专注芦荟，守护客户健康——UNIVERA不变的企业理念与愿景。',c1_btn:'查看 →',c2_t:'创立故事',c2_d:'1976年，创始人的信念与50年成长为芦荟专业企业的历程。',c2_btn:'查看 →',c3_t:'主要历程',c3_d:'从1976年创立到2026年创立50周年，UNIVERA的重要里程碑。',c3_btn:'查看 →',c4_t:'全球布局',c4_d:'在墨西哥、多米尼加、美国、韩国4个国家直营农场出发的全球实力。',c4_btn:'查看 →',c5_t:'认证与荣誉',c5_d:'GMP、FDA GRAS、连续23年世界一流商品等公认品质依据。',c5_btn:'查看 →',c6_t:'来访指南',c6_d:'忠清南道天安市总部位置及客服联系方式。',c6_btn:'查看 →' },
@@ -672,7 +674,8 @@
         support_index: { title: 'カスタマーサポート', desc: 'UNIVERA製品・サービスに関するすべてのお問い合わせをサポートします' },
         faq:          { title: 'よくある質問', desc: '製品・購入・配送などに関してよく寄せられるご質問' },
         notice:       { title: 'お知らせ', desc: 'UNIVERAからの公式お知らせをご確認ください' },
-        contact:      { title: 'お問い合わせ', desc: '製品・購入・一般的なお問い合わせ窓口のご案内' }
+        contact:      { title: 'お問い合わせ', desc: '製品・購入・一般的なお問い合わせ窓口のご案内' },
+        trust:        { title: 'ユニベラを信じる理由', desc: 'お客様の不安に向き合ってきた歩みが、信頼の証となりました' }
       },
       body: {
         about_hub: { c1_t:'企業理念 & ビジョン',c1_d:'アロエ一筋で顧客の健康に寄り添うUNIVERAの変わらぬ企業理念とビジョン。',c1_btn:'見る →',c2_t:'創立ストーリー',c2_d:'1976年、アロエ専門企業になるまでの創業者の信念と50年の歩み。',c2_btn:'見る →',c3_t:'主な沿革',c3_d:'1976年創立から2026年創立50周年まで、UNIVERAの主要マイルストーン。',c3_btn:'見る →',c4_t:'グローバル展開',c4_d:'4カ国の直営農場から始まるUNIVERAのグローバル力。',c4_btn:'見る →',c5_t:'認証 & 受賞',c5_d:'GMP、FDA GRAS、世界一流商品23年連続受賞など公認の品質根拠。',c5_btn:'見る →',c6_t:'アクセス',c6_d:'忠清南道天安市の本社所在地と顧客センター連絡先。',c6_btn:'見る →' },
