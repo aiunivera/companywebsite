@@ -17,6 +17,7 @@
         menu_open: '메뉴 열기',
         menu_close: '메뉴 닫기',
         about: '유니베라 소개',
+        about_trust: '5대 신뢰 요소',
         about_philosophy: '기업 철학 & 비전',
         about_story: '창립 스토리',
         about_history: '주요 연혁',
@@ -160,7 +161,8 @@
         support_index: { title: '무엇을 도와드릴까요?', desc: '궁금한 점을 빠르게 찾아보세요' },
         faq:          { title: '자주 묻는 질문', desc: '궁금한 점, 여기서 먼저 확인하세요' },
         notice:       { title: '알려드립니다', desc: '유니베라의 공식 안내' },
-        contact:      { title: '언제든, 곁에서 챙겨드립니다', desc: '전화 상담부터 가까운 대리점까지' }
+        contact:      { title: '언제든, 곁에서 챙겨드립니다', desc: '전화 상담부터 가까운 대리점까지' },
+        trust:        { title: '유니베라를 믿는 이유', desc: '고객의 고민을 풀어온 과정이, 곧 신뢰의 근거가 되었습니다' }
       },
       body: {
         about_hub: { c1_t:'기업 철학 & 비전',c1_d:'알로에 하나에 집중하며 고객의 건강 곁에 있겠다는 유니베라의 변하지 않는 철학과 비전을 소개합니다.',c1_btn:'보기 →',c2_t:'창립 스토리',c2_d:'1976년, 알로에 전문 기업이 되기까지 창립자의 신념과 50년의 여정을 소개합니다.',c2_btn:'보기 →',c3_t:'주요 연혁',c3_d:'1976년 창립부터 2026년 창립 50주년까지 유니베라의 주요 이정표를 확인하세요.',c3_btn:'보기 →',c4_t:'글로벌 현황',c4_d:'멕시코·도미니카·미국·한국, 세계 4개국 직영 농장에서 시작하는 유니베라의 글로벌 역량.',c4_btn:'보기 →',c5_t:'인증 & 수상',c5_d:'GMP, FDA GRAS, 세계일류상품 23년 연속 수상 등 공인된 품질 근거를 확인하세요.',c5_btn:'보기 →',c6_t:'오시는 길',c6_d:'충청남도 천안 본사 위치 안내 및 고객센터 연락처.',c6_btn:'보기 →' },
@@ -195,6 +197,7 @@
         menu_open: 'Open Menu',
         menu_close: 'Close Menu',
         about: 'About UNIVERA',
+        about_trust: '5 Reasons to Trust',
         about_philosophy: 'Philosophy & Vision',
         about_story: 'Founding Story',
         about_history: 'History',
@@ -364,6 +367,7 @@
         menu_open: '打开菜单',
         menu_close: '关闭菜单',
         about: '关于UNIVERA',
+        about_trust: '五大信赖要素',
         about_philosophy: '企业理念 & 愿景',
         about_story: '创立故事',
         about_history: '发展历程',
@@ -533,6 +537,7 @@
         menu_open: 'メニューを開く',
         menu_close: 'メニューを閉じる',
         about: 'UNIVERAについて',
+        about_trust: '5つの信頼の理由',
         about_philosophy: '企業理念 & ビジョン',
         about_story: '創立ストーリー',
         about_history: '主な沿革',

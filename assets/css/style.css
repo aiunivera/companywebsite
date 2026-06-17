@@ -3362,3 +3362,134 @@ body.menu-open {
     font-size: var(--font-size-xs);
   }
 }
+
+/* ===================================
+   SECTION 18: Trust Page (about/trust.html 전용)
+=================================== */
+
+/* 1. 고객 고민 도입 박스 */
+.trust-intro {
+  background: #f3f4f1;
+  border-radius: 16px;
+  padding: var(--space-8) var(--space-10);
+  margin-bottom: var(--space-8);
+}
+
+.trust-intro__heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  color: #5F5E5A;
+  margin-bottom: var(--space-4);
+}
+
+.trust-intro__icon-q {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #c8c6c1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-black);
+  line-height: 1;
+}
+
+.trust-intro__concerns {
+  font-size: var(--font-size-md);
+  color: #888780;
+  line-height: 1.9;
+}
+
+/* 2. 전환 문구 */
+.trust-pivot {
+  text-align: center;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  margin-bottom: var(--space-8);
+}
+
+/* 3. 카드 리스트 */
+.trust-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trust-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  background: #fff;
+  border: 0.5px solid rgba(0, 82, 76, 0.18);
+  border-radius: 12px;
+  padding: var(--space-6) var(--space-7);
+}
+
+/* 아이콘 원형 */
+.trust-card__icon {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-card__icon .ti {
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+}
+
+/* 텍스트 영역 */
+.trust-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.trust-card__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-primary);
+  line-height: var(--line-height-tight);
+  margin: 0;
+}
+
+.trust-card__desc {
+  font-size: 15px;
+  color: #5F5E5A;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .trust-intro {
+    padding: var(--space-6);
+  }
+
+  .trust-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-5);
+    gap: var(--space-4);
+  }
+
+  .trust-card__title {
+    font-size: 18px;
+  }
+}
