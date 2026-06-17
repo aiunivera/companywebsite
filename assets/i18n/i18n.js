@@ -162,7 +162,7 @@
         faq:          { title: '자주 묻는 질문', desc: '궁금한 점, 여기서 먼저 확인하세요' },
         notice:       { title: '알려드립니다', desc: '유니베라의 공식 안내' },
         contact:      { title: '언제든, 곁에서 챙겨드립니다', desc: '전화 상담부터 가까운 대리점까지' },
-        trust:        { title: '유니베라를 믿는 이유', desc: '고객의 고민을 풀어온 과정이, 곧 신뢰의 근거가 되었습니다' }
+        trust:        { title: '믿음에는 이유가 있습니다', desc: '고객이 묻고, 유니베라가 답해온 다섯 가지' }
       },
       body: {
         about_hub: { c1_t:'기업 철학 & 비전',c1_d:'알로에 하나에 집중하며 고객의 건강 곁에 있겠다는 유니베라의 변하지 않는 철학과 비전을 소개합니다.',c1_btn:'보기 →',c2_t:'창립 스토리',c2_d:'1976년, 알로에 전문 기업이 되기까지 창립자의 신념과 50년의 여정을 소개합니다.',c2_btn:'보기 →',c3_t:'주요 연혁',c3_d:'1976년 창립부터 2026년 창립 50주년까지 유니베라의 주요 이정표를 확인하세요.',c3_btn:'보기 →',c4_t:'글로벌 현황',c4_d:'멕시코·도미니카·미국·한국, 세계 4개국 직영 농장에서 시작하는 유니베라의 글로벌 역량.',c4_btn:'보기 →',c5_t:'인증 & 수상',c5_d:'GMP, FDA GRAS, 세계일류상품 23년 연속 수상 등 공인된 품질 근거를 확인하세요.',c5_btn:'보기 →',c6_t:'오시는 길',c6_d:'충청남도 천안 본사 위치 안내 및 고객센터 연락처.',c6_btn:'보기 →' },
@@ -333,7 +333,7 @@
         faq:          { title: 'Frequently Asked Questions', desc: 'Our most-asked questions on products, purchasing, and delivery' },
         notice:       { title: 'Notices', desc: 'Read official notices from UNIVERA' },
         contact:      { title: 'Contact Us', desc: 'Guidance on product, purchase, and general inquiry channels' },
-        trust:        { title: 'Why Trust UNIVERA', desc: 'Our fifty-year journey to address your concerns has become the foundation of trust' }
+        trust:        { title: 'Trust, for good reason', desc: 'Five answers Univera has built for its customers' }
       },
       body: {
         about_hub: { c1_t:'Corporate Philosophy & Vision',c1_d:'UNIVERA\'s unwavering philosophy of focusing on aloe to stay by customers\' health.',c1_btn:'View →',c2_t:'Founding Story',c2_d:'The founder\'s conviction and 50-year journey to becoming an aloe specialty company.',c2_btn:'View →',c3_t:'Major Milestones',c3_d:'Key milestones from UNIVERA\'s founding in 1976 to its 50th anniversary in 2026.',c3_btn:'View →',c4_t:'Global Presence',c4_d:'Global capabilities starting from company-owned farms in 4 countries worldwide.',c4_btn:'View →',c5_t:'Certifications & Awards',c5_d:'Verified quality credentials including GMP, FDA GRAS, and 23 consecutive World-Class Product awards.',c5_btn:'View →',c6_t:'Directions',c6_d:'Location and contact information for UNIVERA headquarters in Cheonan.',c6_btn:'View →' },
@@ -504,7 +504,7 @@
         faq:          { title: '常见问题', desc: '关于产品、购买、配送等最常见问题解答' },
         notice:       { title: '公告', desc: '查看UNIVERA官方公告' },
         contact:      { title: '联系我们', desc: '产品咨询、购买咨询及一般咨询渠道指南' },
-        trust:        { title: '信赖优莎纳的理由', desc: '解答客户顾虑的历程，就是我们信赖的根基' }
+        trust:        { title: '信赖，自有理由', desc: '顾客的提问，优莎纳的五个回答' }
       },
       body: {
         about_hub: { c1_t:'企业理念与愿景',c1_d:'专注芦荟，守护客户健康——UNIVERA不变的企业理念与愿景。',c1_btn:'查看 →',c2_t:'创立故事',c2_d:'1976年，创始人的信念与50年成长为芦荟专业企业的历程。',c2_btn:'查看 →',c3_t:'主要历程',c3_d:'从1976年创立到2026年创立50周年，UNIVERA的重要里程碑。',c3_btn:'查看 →',c4_t:'全球布局',c4_d:'在墨西哥、多米尼加、美国、韩国4个国家直营农场出发的全球实力。',c4_btn:'查看 →',c5_t:'认证与荣誉',c5_d:'GMP、FDA GRAS、连续23年世界一流商品等公认品质依据。',c5_btn:'查看 →',c6_t:'来访指南',c6_d:'忠清南道天安市总部位置及客服联系方式。',c6_btn:'查看 →' },
@@ -675,7 +675,7 @@
         faq:          { title: 'よくある質問', desc: '製品・購入・配送などに関してよく寄せられるご質問' },
         notice:       { title: 'お知らせ', desc: 'UNIVERAからの公式お知らせをご確認ください' },
         contact:      { title: 'お問い合わせ', desc: '製品・購入・一般的なお問い合わせ窓口のご案内' },
-        trust:        { title: 'ユニベラを信じる理由', desc: 'お客様の不安に向き合ってきた歩みが、信頼の証となりました' }
+        trust:        { title: '信頼には、理由があります', desc: 'お客様の問いに、ユニベラが答えてきた5つの理由' }
       },
       body: {
         about_hub: { c1_t:'企業理念 & ビジョン',c1_d:'アロエ一筋で顧客の健康に寄り添うUNIVERAの変わらぬ企業理念とビジョン。',c1_btn:'見る →',c2_t:'創立ストーリー',c2_d:'1976年、アロエ専門企業になるまでの創業者の信念と50年の歩み。',c2_btn:'見る →',c3_t:'主な沿革',c3_d:'1976年創立から2026年創立50周年まで、UNIVERAの主要マイルストーン。',c3_btn:'見る →',c4_t:'グローバル展開',c4_d:'4カ国の直営農場から始まるUNIVERAのグローバル力。',c4_btn:'見る →',c5_t:'認証 & 受賞',c5_d:'GMP、FDA GRAS、世界一流商品23年連続受賞など公認の品質根拠。',c5_btn:'見る →',c6_t:'アクセス',c6_d:'忠清南道天安市の本社所在地と顧客センター連絡先。',c6_btn:'見る →' },
