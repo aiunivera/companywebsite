@@ -977,7 +977,7 @@ body.menu-open {
   margin: 0 auto;
   padding: var(--space-20) var(--container-pad);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 5fr 7fr;
   gap: var(--space-16);
   align-items: start;
   width: 100%;
