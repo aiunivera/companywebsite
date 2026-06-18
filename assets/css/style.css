@@ -996,9 +996,10 @@ body.menu-open {
 }
 
 .hero__title {
-  font-size: var(--font-size-4xl);
-  font-weight: 500;
-  line-height: 1.25;
+  font-size: 3.375rem;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
   margin-bottom: var(--space-6);
   color: var(--color-primary);
 }
@@ -1588,7 +1589,7 @@ body.menu-open {
   }
 
   .hero__title {
-    font-size: var(--font-size-3xl);
+    font-size: 2.5rem;
   }
 
   .trust-stats__grid {
@@ -1747,6 +1748,10 @@ body.menu-open {
   .hero__inner {
     padding: var(--space-12) var(--container-pad);
     grid-template-columns: 1fr;
+  }
+
+  .hero__title {
+    font-size: 2.25rem;
   }
 
   .hero__visual {
