@@ -1043,6 +1043,19 @@ body.menu-open {
   border-radius: var(--radius-xl);
 }
 
+/* ── 히어로 우측 박스 YouTube 영상 ── */
+.hero__yt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 143%;
+  transform: translate(-50%, -50%) scale(1.05);
+  border: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
 /* ===================================
    SECTION 13: Main Page — Aloe Intro
 =================================== */
@@ -1575,6 +1588,10 @@ body.menu-open {
     border-radius: var(--radius-lg);
   }
 
+  .hero__yt {
+    width: 100%;
+  }
+
   .hero__title {
     font-size: var(--font-size-3xl);
   }
@@ -1746,6 +1763,10 @@ body.menu-open {
   .hero__visual-placeholder {
     aspect-ratio: 16 / 9;
     border-radius: var(--radius-md);
+  }
+
+  .hero__yt {
+    display: none;
   }
 
   .hero__cta {
