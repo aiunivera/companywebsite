@@ -145,12 +145,12 @@
                    width="600" height="480"
                    loading="eager"
                    onerror="this.style.display='none'">
-              <iframe class="hero__yt"
-                      src="https://www.youtube.com/embed/2QIQns-ejNg?autoplay=1&mute=1&loop=1&playlist=2QIQns-ejNg&controls=0&modestbranding=1&rel=0&playsinline=1&disablekb=1"
-                      title=""
-                      frameborder="0"
-                      allow="autoplay; encrypted-media"
-                      allowfullscreen></iframe>
+              <video class="hero__video"
+                     autoplay muted loop playsinline
+                     preload="auto"
+                     poster="assets/images/hero-main.jpg">
+                <source src="assets/videos/hero-video.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </div>
