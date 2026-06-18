@@ -979,7 +979,7 @@ body.menu-open {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-16);
-  align-items: center;
+  align-items: start;
   width: 100%;
 }
 
@@ -997,8 +997,8 @@ body.menu-open {
 
 .hero__title {
   font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-black);
-  line-height: var(--line-height-tight);
+  font-weight: 500;
+  line-height: 1.25;
   margin-bottom: var(--space-6);
   color: var(--color-primary);
 }
@@ -1022,13 +1022,13 @@ body.menu-open {
 
 .hero__visual {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .hero__visual-placeholder {
-  border-radius: var(--radius-xl);
-  aspect-ratio: 5 / 4;
+  border-radius: 12px;
+  aspect-ratio: 16 / 9;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -1040,7 +1040,7 @@ body.menu-open {
   object-fit: cover;
   object-position: center;
   display: block;
-  border-radius: var(--radius-xl);
+  border-radius: 12px;
 }
 
 /* ── 히어로 우측 박스 YouTube 영상 ── */

@@ -66,8 +66,8 @@
       },
       index: {
         hero_eyebrow: '창립 50주년 · 1976–2026',
-        hero_title: '<span class="hero__title-accent">50년</span> 동안, 한 가지만 깊이 연구했습니다',
-        hero_desc: '건강에 대한 확신은 근거에서 옵니다.<br>유니베라는 원료 재배부터 생산까지 직접 관리하며<br>50년간 알로에의 과학적 가능성을 연구해왔습니다.',
+        hero_title: '<span class="hero__title-accent">50년</span> 동안,<br>한 가지만<br>깊이 연구했습니다',
+        hero_desc: '건강에 대한 확신은 근거에서 옵니다.<br>유니베라는 원료 재배부터 생산까지 직접 관리해왔습니다.',
         hero_cta1: '알로에 퀵가이드 보기',
         hero_cta2: '유니베라 스토리',
         aloe_label: '알로에 전문성 · 알로에 퀵가이드',
