@@ -964,6 +964,7 @@ body.menu-open {
 /* ── 히어로 이미지 프레임 ── */
 .hero__visual-frame {
   position: relative;
+  width: 100%;
 }
 
 .hero__visual-placeholder {
@@ -973,14 +974,18 @@ body.menu-open {
 .hero__inner {
   position: relative;
   z-index: 1;
-  max-width: var(--container-max);
-  margin: 0 auto;
-  padding: var(--space-20) var(--container-pad);
+  max-width: 100%;
+  margin: 0;
+  padding: var(--space-20) 160px var(--space-20) max(24px, calc((100vw - 1200px) / 2 + 24px));
   display: grid;
-  grid-template-columns: 5fr 7fr;
-  gap: var(--space-16);
+  grid-template-columns: 430px 1fr;
+  gap: 20px;
   align-items: start;
   width: 100%;
+}
+
+.hero__content {
+  max-width: 430px;
 }
 
 .hero__eyebrow {
@@ -1013,6 +1018,7 @@ body.menu-open {
   color: var(--color-text-secondary);
   line-height: var(--line-height-loose);
   margin-bottom: var(--space-8);
+  word-break: keep-all;
 }
 
 .hero__cta {
@@ -1024,7 +1030,7 @@ body.menu-open {
 .hero__visual {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hero__visual-placeholder {
@@ -1574,6 +1580,13 @@ body.menu-open {
   .hero__inner {
     grid-template-columns: 1fr;
     gap: var(--space-8);
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: var(--space-20) var(--container-pad);
+  }
+
+  .hero__content {
+    max-width: none;
   }
 
   .hero__visual {
@@ -1748,6 +1761,12 @@ body.menu-open {
   .hero__inner {
     padding: var(--space-12) var(--container-pad);
     grid-template-columns: 1fr;
+    max-width: var(--container-max);
+    margin: 0 auto;
+  }
+
+  .hero__content {
+    max-width: none;
   }
 
   .hero__title {
@@ -1765,7 +1784,7 @@ body.menu-open {
     border-radius: var(--radius-md);
   }
 
-  .hero__video {
+  .hero__visual-placeholder img {
     display: none;
   }
 
